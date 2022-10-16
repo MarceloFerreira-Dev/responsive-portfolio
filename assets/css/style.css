@@ -7,12 +7,12 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url(../images/seigaiha.png);
-    background-repeat: repeat;
-    background-size: 20%;
+    background-image: url(../images/it.jpg);
+    /* background-repeat: repeat; */
+    background-size: 150%;
 }
 h1,h2,h3,h4,h5 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 }
 h1 {
     font-size: 28px;
@@ -35,7 +35,7 @@ p {
 header {
     position: relative;
     height: 120px;
-    background-color: #fff;
+    background-color: #327793;
     border-bottom: 5px solid #eee;
 }
 /* content wrapper for header elements */
@@ -45,7 +45,7 @@ header {
 }
 /* brand div - for my name in header */
 .brand {
-    background-color: #4aaaa5;
+    background-color: #327793;
     display: inline-flex;
     padding: 24px;
     float: left;
@@ -87,7 +87,7 @@ nav {
 }
 /* first content section (about me, portfolio, contact form) */
 .main-section {
-    background-color: #fff;
+    background-color: #327793;
     /*float: left;*/
     width: 650px;
     padding: 16px;
@@ -162,7 +162,7 @@ nav {
     font-size: 14px;
 }
 .connect-with-me {
-    background-color: #fff;
+    background-color: rgb(72, 96, 139);
     width: 270px;
     padding: 16px;
     max-height: 100px;
@@ -184,7 +184,7 @@ nav {
 }
 footer {
     height: 120px;
-    background-color: #666;
+    background-color: #327793;
     border-top: 5px solid #4aaaa5;
     display: -webkit-flex;
     display: -ms-flex;
